@@ -6,6 +6,7 @@ export const AboutContainer = styled.div`
     padding: 20px;
     display: flex;
     justify-content: center;
+    margin-top: 110px;
 `
 
 export const AboutWrapper = styled.div`

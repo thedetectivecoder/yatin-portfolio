@@ -1,4 +1,3 @@
-
 import React from "react";
 import { FaBars } from "react-icons/fa";
 import {
@@ -15,13 +14,13 @@ import {
 
 //rafce
 
-const Navbar = () => {
+const Navbar = ({toggle}) => {
   return (
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo to="/">dolla</NavLogo>
-          <MobileIcon>
+          <NavLogo to="/">F. A. C.</NavLogo>
+          <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
           <NavMenu>
