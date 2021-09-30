@@ -5,7 +5,7 @@ import HC from "../../assets/images/hackerNews.jpeg";
 export const ProjectSection = () => {
   return (
     <>
-      <ProjectContainer>
+      <ProjectContainer id="projects">
         <ProjectWrapper>
           <HeadingWrapper>
             <Heading>Projects</Heading>

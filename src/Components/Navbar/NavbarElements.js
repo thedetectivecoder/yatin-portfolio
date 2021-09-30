@@ -4,11 +4,8 @@ import { Link as LinkS } from "react-scroll";
 
 export const Nav = styled.nav`
   background: #000;
-  height: 80px;
+  height: 55px;
   //  margin-top: -80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 1rem;
   position: sticky;
   top: 0;
@@ -19,9 +16,7 @@ export const Nav = styled.nav`
 `;
 
 export const NavbarContainer = styled.div`
-  display: flex;
-  justify-content: space-between;
-  height: 80px;
+  height: 45px;
   z-index: 1;
   width: 100%;
   padding: 0 24px;
@@ -66,7 +61,7 @@ export const NavMenu = styled.ul`
 `;
 
 export const NavItem = styled.li`
-  height: 80px;
+  margin: 20px;
 `;
 
 export const NavLinks = styled(LinkS)`
@@ -79,7 +74,7 @@ export const NavLinks = styled(LinkS)`
   cursor: pointer;
   //active class
   &.active {
-    border-bottom: 3px solid #01bf71;
+    color:#f72585;
   }
 `;
 

@@ -6,7 +6,7 @@ import { HeroContainer, HeroBackground, VideoBg, HeroContent, HeroH1, HeroName, 
 export const MainSection = () => {
     return (
         <>
-            <HeroContainer>
+            <HeroContainer id="home">
                 <HeroBackground>
                     <VideoBg autoPlay loop muted src={Video} type="video/mp4"></VideoBg>
                 </HeroBackground>

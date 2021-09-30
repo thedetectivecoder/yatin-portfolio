@@ -26,7 +26,7 @@ import ProfilePic from "../../assets/images/profPic.jpeg";
 export const AboutSection = () => {
   return (
     <>
-      <AboutContainer>
+      <AboutContainer id="about">
         <AboutWrapper>
           <HeadingWrapper>
             <Heading>ABOUT</Heading>

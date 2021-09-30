@@ -19,26 +19,49 @@ const Navbar = ({toggle}) => {
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo to="/">F. A. C.</NavLogo>
+          {/* <NavLogo to="/">F. A. C.</NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
-          </MobileIcon>
+          </MobileIcon> */}
           <NavMenu>
-            <NavItem>
-              <NavLinks to="about">About</NavLinks>
+          <NavItem>
+              <NavLinks to="home"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+              offset={-80}>Home</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="discover">Discover</NavLinks>
+              <NavLinks to="about"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+              offset={-80}>About</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="services">Services</NavLinks>
+              <NavLinks to="projects"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+              offset={-80}>Projects</NavLinks>
             </NavItem>
             <NavItem>
+              <NavLinks to="contact"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+              offset={-80}>Contact</NavLinks>
+            </NavItem>
+            {/* <NavItem>
               <NavLinks to="signup">Sign Up</NavLinks>
-            </NavItem>
+            </NavItem> */}
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="/signin">Sign In </NavBtnLink>
+            {/* <NavBtnLink to="/signin">Sign In </NavBtnLink> */}
           </NavBtn>
         </NavbarContainer>
       </Nav>

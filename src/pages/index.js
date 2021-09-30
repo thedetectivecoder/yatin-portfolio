@@ -4,6 +4,8 @@ import Navbar from '../components/Navbar';
 import { MainSection } from "../components/MainSection"
 import { AboutSection } from '../components/AboutSection';
 import { ProjectSection } from '../components/ProjectSection';
+import { ContactSection } from '../components/ContactSection';
+import { Footer } from '../components/Footer';
 
 
 
@@ -23,6 +25,8 @@ const Home = () => {
             <MainSection />
             <AboutSection />
             <ProjectSection />
+            <ContactSection />
+            <Footer></Footer>
         </>
     )
 }
