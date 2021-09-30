@@ -6,7 +6,7 @@ export const FooterContainer = styled.footer`
 `
 
 export const FooterWrap = styled.div`
-    padding: 48px 24px;
+    padding: 30px 24px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -111,4 +111,22 @@ export const SocialIcons =  styled.div`
 export const SocialIconLink = styled.a`
     color: #fff;
     font-size: 24px;
+`
+export const IconSupp = styled.div`
+    margin-top: 5px;
+    font-size: 9px;
+    color: white;
+
+    position: relative;
+    left: -100px;
+
+    @media screen and (max-width:480px){
+       position : relative;
+       left: 0;
+}
+`
+
+export const IconSuppLink = styled.a`
+    text-decoration: none;
+    color: white;
 `

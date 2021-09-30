@@ -22,6 +22,10 @@ import {
 
 import Engineer from "../../assets/images/engineer.png";
 import ProfilePic from "../../assets/images/profPic.jpeg";
+import Device from "../../assets/images/device.png"
+import Speed from "../../assets/images/speedometer.png"
+import Idea from "../../assets/images/idea.png";
+import Trust from "../../assets/images/trusted.png"
 
 export const AboutSection = () => {
   return (
@@ -36,42 +40,38 @@ export const AboutSection = () => {
             <SkillSectionWrapper>
               <SkillWrapper>
                 <IconWrapper>
-                  <Icon src={Engineer}></Icon>
+                <Icon src={Device}></Icon>
                 </IconWrapper>
-                <SkillHeading>Skill</SkillHeading>
+                <SkillHeading>Responsive</SkillHeading>
                 <SkillDetail>
-                  this is some line related to this skill by me one two three
-                  four five six seven eight nine ten
+                  Layouts by me will work on all devices
                 </SkillDetail>
               </SkillWrapper>
               <SkillWrapper>
                 <IconWrapper>
-                  <Icon src={Engineer}></Icon>
+                  <Icon src={Speed}></Icon>
                 </IconWrapper>
-                <SkillHeading>Skill</SkillHeading>
+                <SkillHeading>Fast</SkillHeading>
                 <SkillDetail>
-                  this is some line related to this skill by me one two three
-                  four five six seven eight nine ten
+                  My Websites are fast and lag free and dynamic
                 </SkillDetail>
               </SkillWrapper>
               <SkillWrapper>
                 <IconWrapper>
-                  <Icon src={Engineer}></Icon>
+                  <Icon src={Idea}></Icon>
                 </IconWrapper>
-                <SkillHeading>Skill</SkillHeading>
+                <SkillHeading>Intuitive</SkillHeading>
                 <SkillDetail>
-                  this is some line related to this skill by me one two three
-                  four five six seven eight nine ten
+                  Layouts by me are intuitive and easy to understand
                 </SkillDetail>
               </SkillWrapper>
               <SkillWrapper>
                 <IconWrapper>
-                  <Icon src={Engineer}></Icon>
+                  <Icon src={Trust}></Icon>
                 </IconWrapper>
-                <SkillHeading>Skill</SkillHeading>
+                <SkillHeading>Reliable </SkillHeading>
                 <SkillDetail>
-                  this is some line related to this skill by me one two three
-                  four five six seven eight nine ten
+                  My websites are secure and reliable 
                 </SkillDetail>
               </SkillWrapper>
             </SkillSectionWrapper>
@@ -82,7 +82,11 @@ export const AboutSection = () => {
                     <MyPic src={ProfilePic}></MyPic>
                 </PictureWrapper>
                 <AboutParaWrapper>
-                    <AboutPara> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </AboutPara>
+                    <AboutPara> 
+                      I am a full-stack developer and a Post-grad student of Lambton College, Mississauga. I have
+                      worked as a developer in a fin-tech start-up in Bangalore, India. I have passion for software 
+                      development, datastructures, algorithms and design. 
+                    </AboutPara>
                 </AboutParaWrapper>
               </AboutMeWrapper>
           </AboutMeOuterWrapper>

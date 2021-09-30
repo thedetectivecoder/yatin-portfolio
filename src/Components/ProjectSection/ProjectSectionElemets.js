@@ -1,11 +1,16 @@
 import styled from "styled-components";
 
 export const ProjectContainer = styled.div`
-  height: 840px;
-  background: #fff;
+  height: 700px;
+  background: #f5f5f5;
   padding: 20px;
   display: flex;
   justify-content: center;
+  margin-top: 40px;
+
+  @media screen and (max-width: 480px){
+    height: 1500px;
+  }
 `;
 
 export const ProjectWrapper = styled.div``;
@@ -27,29 +32,39 @@ export const HeadingBar = styled.div`
 `;
 
 export const MyProjectWrapper = styled.div`
-  border: 1px solid black;
+  margin-top: 60px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  @media screen and (max-width: 480px){
+    flex-direction: column;
+  }
 `;
 
 export const Project = styled.div`
-  border: 1px solid blue;
   padding: 10px;
   position: relative;
 
 `;
 
 export const Icon = styled.img`
-  width: 400px;
-  height: 400px;
+  object-fit: cover;
+  width: 350px;
+  height: 350px;
 
   ${Project}:hover & {
     opacity: 0.3;
   }
+
+  @media screen and (max-width: 480px){
+    width:250px;
+    height: 250px;
+  }
 `;
 
 export const TextWrapper = styled.div`
+  font-size: 10px;
   transition: 0.5s ease;
   opacity: 0;
   position: absolute;
@@ -68,6 +83,6 @@ export const Text = styled.a`
   text-decoration: none;
   background-color: black;
   color: white;
-  font-size: 20px;
+  font-size: 13px;
   padding: 16px 32px;
 `

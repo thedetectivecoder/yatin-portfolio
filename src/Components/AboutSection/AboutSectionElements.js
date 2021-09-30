@@ -1,56 +1,69 @@
 import styled from "styled-components";
 
 export const AboutContainer = styled.div`
-    height: 840px;
+    height: 730px;
     background: #fff;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    margin-top: 110px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 10px;
+    width: 100%;
+
+    @media screen and (max-width: 480px){
+        height: 2000px ;
+
+    }
+
 `
 
 export const AboutWrapper = styled.div`
-
 `
   
 export const HeadingWrapper = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-
-`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-top: 30px;
+`;
 
 export const Heading = styled.h1`
-
+    color: #444649;
+    font-size: 25pt;
+    position: relative;
+    position: relative;
 `
 
 export const HeadingBar = styled.div`
-    width: 85px;
+      background: #444649;
     height: 4px;
-    background: black;
-    margin: 10px;
-`
+    margin: 25px 0 75px 0;
+    width: 70px;
+`;
 
 export const SkillOuterWrapper = styled.div`
     width: 100%;
     display: flex;
     justify-content: center;
+
+   
 `
 
 export const SkillSectionWrapper = styled.div`
+    margin-top: -60px;
     display: flex;
     flex-direction: row;
-    background-color: gray;
     width: 80%;
     max-height: 400px;
+     @media screen and (max-width: 480px){
+        flex-direction: column;
+    align-items: center;
+    }
 `
 
 export const SkillWrapper = styled.div`
-    background-color: wheat;
     width: 300px;
     height: 270px;
-    border: solid 2px black;
     margin: 20px;
     text-align: center;
 `
@@ -78,20 +91,27 @@ export const SkillDetail = styled.p`
 `
 
 export const AboutMeOuterWrapper = styled.div`
-        margin-top: 70px;
-        border: 2px solid black;
 `
 
 export const AboutMeWrapper = styled.div`
     display: flex;
-    border: 2px solid black;
     margin: 0px 300px;
 
+    @media screen and (max-width: 480px){
+
+        margin: 600px 0px;
+        flex-direction: column;
+        
+    }
 
 `
 
 export const PictureWrapper = styled.div`
     padding: 0px 30px;
+
+    @media screen and (max-width: 480px){
+        text-align: center;
+    }
 `
 
 export const MyPic = styled.img`
@@ -105,6 +125,15 @@ export const AboutParaWrapper = styled.div`
 `
 
 export const AboutPara = styled.p`
-    padding: 50px;
+    padding: 30px;
+    margin-top: 50px;
+    margin-left: -40px;
+    text-align: center;
 
+    @media screen and (max-width: 480px){
+        padding: 0;
+        margin-left: 0;
+        text-align: center;
+        font-size: 18px;
+    }
 `

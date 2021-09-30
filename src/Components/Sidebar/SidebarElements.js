@@ -29,6 +29,7 @@ export const Icon = styled.div`
     font-size:2rem;
     cursor: pointer;
     outline: none;
+    color:#fff;
 `
 
 export const SidebarWrapper = styled.div`

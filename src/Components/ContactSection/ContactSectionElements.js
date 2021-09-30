@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ContactContainer = styled.div`
-    height: 840px;
+    height: 550px;
     background: #fff;
     padding: 20px;
     /* display: flex;
@@ -33,7 +33,7 @@ export const CaptionWrapper = styled.div`
     margin: 30px;
 `
 export const Caption = styled.h3`
-    color: #04c2c9;
+    color: #f72585;
     font-weight: 600;
 `
 
@@ -108,4 +108,10 @@ export const Button = styled.input`
     display: inline-block;
     transition: all 0.5s;
     border: 1px solid black;
+
+    &:hover{
+        background: #f72585;
+        color: white;
+        border: 0;
+    }
 `
