@@ -42,7 +42,7 @@ export const FormContainer = styled.div`
     margin:auto;
 `
 
-export const FormWrapper = styled.div`
+export const FormWrapper = styled.form`
     display: flex;
     flex-direction: column;
 `

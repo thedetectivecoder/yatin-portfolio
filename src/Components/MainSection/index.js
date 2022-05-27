@@ -1,7 +1,7 @@
 import React from 'react'
 import Typist from 'react-typist'
 import Video from '../../assets/video-bg/video.mp4'
-import { HeroContainer, HeroBackground, VideoBg, HeroContent, HeroH1, HeroName, HeroP} from './MainSectionElements'
+import { HeroContainer, HeroBackground, VideoBg, HeroContent, HeroH1, HeroName, HeroP, LinkP} from './MainSectionElements'
 
 export const MainSection = () => {
     return (
@@ -17,8 +17,13 @@ export const MainSection = () => {
                     <HeroP>
                         <Typist>
                         <Typist.Delay ms={1500} />
-                            I am a full-stack web developer.
+                            I am a full-stack developer.
                         </Typist>
+                        <LinkP href='https://pdfhost.io/v/wtroFHqlH_Yatin_Burhmi_2022'  target="_blank">
+                            
+                            View resume
+                            
+                            </LinkP>
                     </HeroP>
                     
                 </HeroContent>

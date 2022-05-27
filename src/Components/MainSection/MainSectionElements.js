@@ -76,3 +76,16 @@ export const HeroP = styled.p`
         font-size: 18px
     }
 `
+
+export const LinkP = styled.a`
+    color: #f72585;
+    font-size: 16px;
+    margin-top: 40px  ;
+    @media screen and (max-width: 768px){
+        font-size: 16px
+    }
+
+    @media screen and (max-width: 480px){
+        font-size: 10px
+    }
+`
