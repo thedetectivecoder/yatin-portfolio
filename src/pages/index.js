@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
-import Sidebar from '../components/Sidebar';
-import Navbar from '../components/Navbar';
-import { MainSection } from "../components/MainSection"
-import { AboutSection } from '../components/AboutSection';
-import { ProjectSection } from '../components/ProjectSection';
-import { ContactSection } from '../components/ContactSection';
-import { Footer } from '../components/Footer';
+import Sidebar from '../components/Sidebar/index.js';
+import Navbar from '../components/Navbar/index.js';
+import { MainSection } from "../components/MainSection/index.js"
+import { AboutSection } from '../components/AboutSection/index.js';
+import { ProjectSection } from '../components/ProjectSection/index.js';
+import { ContactSection } from '../components/ContactSection/index.js';
+import { Footer } from '../components/Footer/index.js';
 
 
 
