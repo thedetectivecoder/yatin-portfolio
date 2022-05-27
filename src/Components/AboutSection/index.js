@@ -20,7 +20,6 @@ import {
   AboutPara
 } from "./AboutSectionElements";
 
-import Engineer from "../../assets/images/engineer.png";
 import ProfilePic from "../../assets/images/profPic.jpeg";
 import Device from "../../assets/images/device.png"
 import Speed from "../../assets/images/speedometer.png"
