@@ -38,13 +38,13 @@ export const ContactSection = () => {
                 </CaptionWrapper>
                 <FormContainer>
                 <FormWrapper ref={form} onSubmit={sendEmail}>
-                    <NameInput type="text" placeholder='Name' name='user_name'>
+                    <NameInput type="text" placeholder='Name' name='user_name' required='true'>
                     </NameInput>
-                    <EmailInput type="email" placeholder="Email" name='user_email'>
+                    <EmailInput type="email" placeholder="Email" name='user_email' required='true'>
                     </EmailInput>
-                    <MessageInput type="text" placeholder="Your Message" name = 'user_msg'></MessageInput>
+                    <MessageInput type="text" placeholder="Your Message" name = 'user_msg' required='true'></MessageInput>
                     <ButtonWrapper>
-                    <Button type="submit" value="SUBMIT"></Button>
+                    <Button type="submit" value="SEND"></Button>
                     </ButtonWrapper>
                 </FormWrapper>
                 </FormContainer>
