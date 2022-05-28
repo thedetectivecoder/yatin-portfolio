@@ -114,4 +114,11 @@ export const Button = styled.input`
         color: white;
         border: 0;
     }
+
+    @media screen and (max-width: 500px){
+        font-size: 10px;
+        background: #f72585;
+        color: white;
+        border: 0;
+    }
 `
